@@ -1,0 +1,99 @@
+.Message_Container{
+   
+    height: 100vh;
+    width: 100%;
+    background-color: #2C3639;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+/* .Message_Container div{
+
+} */
+.Accounts_container {
+    display: grid;
+    height: 300px;
+    background-color: #212121;
+    
+    width: 350px;
+    background: linear-gradient(#212121, #212121) padding-box,
+                linear-gradient(145deg, transparent 35%,#e81cff, #40c9ff) border-box;
+    border: 2px solid transparent;
+    padding: 32px 24px;
+    font-size: 14px;
+    font-family: inherit;
+    color: #717171;
+   
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-size: 200% 100%;
+    animation: gradient 5s ease infinite;
+}
+.Accounts_container h3{
+    padding: 10px;
+}
+
+.Accounts_container ul li {
+   color: #717171;
+}
+.Accounts_container ul li a{
+    text-decoration: none;
+    color: #717171;
+}
+.sub_container{
+    display: flex;
+    justify-content: space-around;
+}
+.Accounts_container ul li a:hover{
+    text-decoration: none;
+    color: white;
+    transform: scale(12);
+}
+@media  screen and (max-width:991px) and (min-width:767px){
+   
+}
+@media  screen and (max-width:766px) and (min-width:581px){
+    .Message_Container{
+        display: flex;
+    }
+   
+    .Accounts_container{
+        
+        z-index: 1;
+        display: grid;
+        row-gap: 0;
+        
+    }
+    
+}
+@media  screen and (max-width:580px) and (min-width:391px){
+    .Message_Container{
+        display: grid;
+    }
+   
+    .Accounts_container{
+        height: 370px;
+        z-index: 1;
+        display: grid;
+        row-gap: 0;
+        
+    }
+}
+@media  screen and (max-width:390px) {
+    .Message_Container{
+        display: grid;
+    }
+    /* .form_container{
+
+    } */
+    .Accounts_container{
+        height: 400px;
+        z-index: 1;
+        display: grid;
+        row-gap: 0;
+    }
+}

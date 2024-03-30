@@ -1,0 +1,31 @@
+.Footer_container{
+    height: 100px;
+    width: 100%;
+    background-color:gray;
+
+}
+.custom-shape-divider-top-1706605316 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1706605316 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 20px;
+}
+.sub-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-shape-divider-top-1706605316 .shape-fill {
+    fill: #2C3639;
+}

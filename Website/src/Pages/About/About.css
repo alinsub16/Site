@@ -1,0 +1,209 @@
+.About_Container{
+    height: 100vh;
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+    background-color: #2C3639;
+    
+    
+    
+}
+.Picture_container img{
+    height: 450px;
+    width: 400px;
+    border-radius: 16px;
+}
+.Aboutme_container{
+    width: 540px;
+    
+    height: 450px;
+    display: grid;
+    
+    border-radius: 16px;
+    
+    background: linear-gradient(#2C3639, #2C3639) padding-box,
+                linear-gradient(145deg, transparent 35%,#e81cff, #40c9ff) border-box;
+    border: 2px solid transparent;
+    padding: 32px 24px 0 10px;
+    
+    font-family: inherit;
+    color:#FDF0D1;
+   
+    flex-direction: column;
+    gap: 10px;
+    box-sizing: border-box;
+    
+    background-size: 200% 100%;
+    animation: gradient 5s ease infinite;
+    
+    
+    
+}
+.Aboutme_container_header{
+    position: relative;
+    margin: 2px;
+    left: 32%;
+    width: 10rem;
+    height: 30px;
+    
+    border-radius: 2px;
+}
+.Aboutme_container_header h4{
+    text-align: center;
+}
+.Aboutme_container div p{
+    padding: 2rem;
+}
+@media  screen and (max-width:991px) and (min-width:767px){
+    .About_Container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    .Picture_container{
+       
+        display: flex;
+        justify-content: center;
+        
+    }
+    .About_Container .Picture_container img{
+        height: 450px;
+        width: 370px;
+        margin-left: 2rem;
+        
+        
+    }
+    .Aboutme_container_header{
+       color: #FDF0D1;
+      left: 25%;
+    }
+    .Aboutme_container{
+        
+        width: 500px;
+        height: auto;
+        color: #FDF0D1;
+        padding: 5px 5px 5px 5px;
+        text-align:start;
+        font-size: 0.9rem;
+        margin-right: 2rem;
+       
+       
+       
+
+    }
+}
+@media  screen and (max-width:766px) and (min-width:581px){
+    .About_Container{
+        display: grid;
+        align-items: center;
+        row-gap: 0;
+        
+        
+    }
+    .Picture_container{
+       
+        display: flex;
+        justify-content: center;
+        
+    }
+    .About_Container .Picture_container img{
+        border-radius: 50%;
+        height: 250px;
+        width: 200px;
+        
+    }
+    .Aboutme_container_header{
+       color: #FDF0D1;
+        left: 35%;
+    }
+    .Aboutme_container{
+        width: auto;
+        height: auto;
+        color: #FDF0D1;
+        padding: 5px 5px 5px 5px;
+        text-align:start;
+        font-size: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+       
+
+    }
+}
+@media  screen and (max-width:580px) and (min-width:391px){
+    .About_Container{
+        display: grid;
+        align-items: center;
+        row-gap: 0;
+        
+        
+    }
+    .Picture_container{
+       
+        display: flex;
+        justify-content: center;
+        
+    }
+    .About_Container .Picture_container img{
+        border-radius: 50%;
+        height: 250px;
+        width: 200px;
+        
+    }
+    .Aboutme_container_header{
+       color: #FDF0D1;
+        left: 30%;
+    }
+    .Aboutme_container{
+        width: auto;
+        height: auto;
+        color: #FDF0D1;
+        padding: 5px 5px 5px 5px;
+        text-align:start;
+        font-size: 0.8rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+       
+
+    }
+}
+@media  screen and (max-width:390px) {
+    .About_Container{
+        display: grid;
+        align-items: center;
+        row-gap: 0;
+        
+    }
+    .Picture_container{
+       
+        display: flex;
+        justify-content: center;
+        
+    }
+    .About_Container .Picture_container img{
+        border-radius: 50%;
+        height: 150px;
+        width: 100px;
+        
+    }
+    .Aboutme_container_header{
+       color: #FDF0D1;
+        left: 26%;
+    }
+    .Aboutme_container{
+        width: auto;
+        height: auto;
+        color: #FDF0D1;
+        padding: 5px 5px 5px 5px;
+        text-align:start;
+        font-size: 0.8rem;
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
+}
+
